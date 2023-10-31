@@ -217,6 +217,44 @@
     </section> 
     </nav>
 <footer>
+   <section>\
+      <div class="text1">
+      <div class="block3">
+         <form onsubmit="return false">
+           <input id="num1" />
+           <select id="select1">
+            <option value="60">молоко по 60руб</option>
+            <option value="40">хлеб по 40руб</option>
+            <option value="20">лук по 20руб</option>
+           </select>
+           
+           <button type="submit" onclick="Math1()">Посчитать</button>
+           <p id="result"></p>
+         </form>  
+      </div> 
+      </div>
+   </section>
+   
+   </nav>
+   <nav>
+   <div class="text1">
+   <div class="block3">
+   <section id="about">
+   </section>
+   </div>
+   </nav>
+   <script>
+   function Math1(){
+      var r;
+    var num1=Number(document.getElementById("num1").value);
+   var num2=Number(document.getElementById("select1").value);
+   if(num1<0)  r="Ошибка";
+   if (num1>=0)   r=num1*num2;
+   document.getElementById("result").innerHTML=r;
+   }
+
+   </script>
+
 
 <div class="block1">
 <div class="text1">
