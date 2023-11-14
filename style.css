@@ -75,6 +75,18 @@ a:visited{
         .text2{
             color: #252A34
         }
+        .block5{
+            max-width: 1100px;
+            background-color: #595959;
+            margin: 0 auto;
+            margin-top: 20px;
+            padding: 10px;
+        }
+        
+        .img2{
+            width:350px; 
+            height: 200px;
+        }
 @media (min-device-width: 320px) and (max-device-width: 568px) {
     nav{
         display: flex;
